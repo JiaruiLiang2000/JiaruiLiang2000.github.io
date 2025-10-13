@@ -2275,9 +2275,9 @@ input, select, textarea {
 			transition-delay: 0.5s;
 		}
 
-	body.homepage.is-preload #header:after {
-		opacity: 0;
-	}
+	/*#body.homepage.is-preload #header:after {
+		opacity: 1;
+	}*/
 
 /* Nav */
 

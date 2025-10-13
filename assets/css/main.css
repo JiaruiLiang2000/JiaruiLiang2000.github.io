@@ -1762,6 +1762,8 @@ input, select, textarea {
 
 	header {
 		margin: 0 0 1em 0;
+		display: flex;
+		flex-direction: column;
 	}
 
 		header > p {

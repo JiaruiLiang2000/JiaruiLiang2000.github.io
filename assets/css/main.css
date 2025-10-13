@@ -2174,6 +2174,17 @@ input, select, textarea {
 			padding-top: 0;
 		}
 
+.p-center-wrapper {
+  width: 100%;           /* full width of parent */
+  text-align: center !important; /* override anything from framework */
+}
+
+.p-center-wrapper p {
+  display: inline-block;  /* shrink to content width */
+  max-width: 600px;       /* optional, for readability */
+}
+
+
 /* Header */
 
 	#header {

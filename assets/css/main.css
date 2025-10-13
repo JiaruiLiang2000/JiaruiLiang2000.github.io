@@ -2264,7 +2264,7 @@ input, select, textarea {
 			top: 0;
 			width: 100%;
 			height: 100%;
-			opacity: 0;
+			opacity: 1;
 			-moz-transition: opacity 2.5s ease-in-out;
 			-webkit-transition: opacity 2.5s ease-in-out;
 			-ms-transition: opacity 2.5s ease-in-out;
@@ -2274,10 +2274,15 @@ input, select, textarea {
 			-ms-transition-delay: 0.5s;
 			transition-delay: 0.5s;
 		}
+			
+			#header:before,
+			#header:after {
+			  display: none !important;
+			}
 
-	/*#body.homepage.is-preload #header:after {
+	#body.homepage.is-preload #header:after {
 		opacity: 1;
-	}*/
+	}
 
 /* Nav */
 

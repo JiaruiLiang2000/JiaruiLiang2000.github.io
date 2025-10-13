@@ -2186,6 +2186,16 @@ input, select, textarea {
 		cursor: default;
 	}
 
+	#header img {
+	  position: absolute;
+	  top: 0;
+	  left: 0;
+	  width: 100%;
+	  height: 100%;
+	  object-fit: cover;
+	  z-index: 0; /* behind text */
+	}
+
 		#header:before {
 			content: '';
 			display: inline-block;
@@ -2274,11 +2284,6 @@ input, select, textarea {
 			-ms-transition-delay: 0.5s;
 			transition-delay: 0.5s;
 		}
-			
-			#header:before,
-			#header:after {
-			  display: none !important;
-			}
 
 	#body.homepage.is-preload #header:after {
 		opacity: 1;

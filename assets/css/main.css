@@ -2180,7 +2180,7 @@ input, select, textarea {
 		height: 100vh; /* or some px value */
  		width: 100%;
 		overflow: hidden
-		background-size: cover;
+		background-size: fill;
 		background-position: center center;
 		background-attachment: fixed;
 		color: #fff;

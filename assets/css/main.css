@@ -2280,6 +2280,11 @@ input, select, textarea {
 		opacity: 1;
 	}
 
+#header:before,
+#header:after {
+  display: none !important;
+}
+
 /* Nav */
 
 	#nav {

@@ -2193,11 +2193,12 @@ input, select, textarea {
 	#header {
 		position: relative;
 		background-image: url("../../images/header-people.JPG");
+		background-repeat: no-repeat;
+		background-position: center;
 		height: 100vh; /* or some px value */
  		width: 100%;
 		overflow: hidden
-		background-size: fill;
-		background-position: center center;
+		background-size: contain;
 		background-attachment: fixed;
 		color: #fff;
 		text-align: center;

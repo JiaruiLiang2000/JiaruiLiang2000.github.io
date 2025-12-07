@@ -2536,6 +2536,13 @@ input, select, textarea {
 				margin: 0 0 3em 0;
 			}
 
+		#footer .contact .icons {
+		    list-style: none;
+		    display: inline-block; /* 转换为行内块级元素 */
+		    padding: 0;
+		    margin: 1em 0 0 0; 
+		}
+
 		#footer .copyright {
 			text-align: center;
 			color: rgba(128, 128, 128, 0.75);

@@ -1807,9 +1807,9 @@ input, select, textarea {
 		}
 
 		.image.show {
-			display: block;
+			display: block !important;
 			width: 60%;
-			margin: 0 auto 4em auto;
+			margin: 0 auto 4em auto !important;
 		}
 
 		.image.left {

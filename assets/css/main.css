@@ -1828,6 +1828,10 @@ input, select, textarea {
 
 			margin-bottom: 3em;
 		}
+
+		.image-article img {
+		    width: 100%;
+		}
 			
 
 /* List */

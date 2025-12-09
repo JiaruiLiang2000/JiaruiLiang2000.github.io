@@ -1810,6 +1810,7 @@ input, select, textarea {
 			display: block !important;
 			width: 60%;
 			margin: 0 auto 4em auto !important;
+			text-align: center !important;
 		}
 
 		.image.left {

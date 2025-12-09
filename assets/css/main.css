@@ -1821,6 +1821,15 @@ input, select, textarea {
 				width: auto;
 			}
 
+		.image-article {
+			max-width: 65%;
+			margin-left: auto;
+			margin-right: auto;
+
+			margin-bottom: 3em;
+		}
+			
+
 /* List */
 
 	ul {
